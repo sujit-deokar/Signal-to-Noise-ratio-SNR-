@@ -6,7 +6,7 @@ Simple calculation of variance of signal and noise and its ratio to find SNR
 inputs:  signal(orignal data)
          noisy_signal(corrupted data)
 output:  snr
-created: 23/10/2013
+created: 22/12/2013
 auhor:   sujitdeokar@ymail.com
 """
 
