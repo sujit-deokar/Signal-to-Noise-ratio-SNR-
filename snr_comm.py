@@ -7,7 +7,7 @@ inputs:  signal(orignal data)
          noisy_signal(corrupted data)
 output:  snr
 created: 22/12/2013
-auhor:   sujitdeokar@ymail.com
+auhor:   sujitdeokar30@gmail.com
 """
 
 import numpy as np
