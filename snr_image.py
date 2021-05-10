@@ -13,7 +13,7 @@ auhor: sujitdeokar@ymail.com
 import numpy as np
 
 image = np.array() ## input orignal image
-mean_image = np.mean(signal)
+mean_image = np.mean(image)
 
 noisy_image = np.array() ## input noisy image
 noise = noisy_image - image
@@ -24,6 +24,6 @@ var_noise = np.sum(np.mean(noise_diff**2)) ## variance of noise
 if var_noise == 0:
       snr = 100 ## clean image
 else:
-      snr = (np.log10(mean_signal/var_noise))*20 ## SNR of the image
+      snr = (np.log10(mean_image/var_noise))*20 ## SNR of the image
       
 snr
